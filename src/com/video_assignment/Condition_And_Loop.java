@@ -1,9 +1,8 @@
 package com.video_assignment;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
-public class Video_Assignments {
+public class Condition_And_Loop {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
