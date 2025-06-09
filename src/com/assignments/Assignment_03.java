@@ -216,5 +216,63 @@ public class Assignment_03 {
 //        System.out.println("Enter side of cube: ");
 //        double side = in.nextDouble();
 //        System.out.println(6 * (side * side));
+
+
+
+
+
+//      Fibonacci Series In Java Programs
+//        int a = 0;
+//        int b = 1;
+//        int x = in.nextInt();
+//        for (int i = 1; i < x; i++) {
+//            int temp = b;
+//            b = a + b;
+//            a = temp;
+//        }
+//        System.out.println(a);
+
+
+
+
+
+//      Input a number and print all the factors of that number (use loops).
+//      PENDING
+
+
+
+
+
+
+//      Take integer inputs till the user enters 0 and print the sum of all numbers
+        int sum = 0;
+        while (true) {
+            int num = in.nextInt();
+            if (num == 0) {
+                System.out.println(sum);
+                break;
+            }
+            sum += num;
+        }
+
+
+
+
+
+
+//      Take integer inputs till the user enters 0 and print the largest number from all.
+        int lar = 0;
+        while (true) {
+            int num = in.nextInt();
+
+            if (num == 0) {
+                System.out.println(lar);
+                break;
+            }
+
+            if (num > lar) {
+                lar = num;
+            }
+        }
     }
 }
